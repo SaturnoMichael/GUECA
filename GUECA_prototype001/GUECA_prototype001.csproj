@@ -98,6 +98,23 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="bootstrap\.travis.yml" />
+    <Content Include="bootstrap\LICENSE" />
+    <Content Include="bootstrap\package.json" />
+    <Content Include="bootstrap\README.md" />
+    <Content Include="bootstrap\mail\contact_me.php" />
+    <Content Include="bootstrap\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="bootstrap\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="bootstrap\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="bootstrap\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="bootstrap\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="bootstrap\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="bootstrap\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="bootstrap\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="bootstrap\vendor\bootstrap\js\bootstrap.js.map" />
+    <Content Include="bootstrap\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="bootstrap\vendor\jquery\jquery.min.map" />
+    <Content Include="bootstrap\vendor\jquery\jquery.slim.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -106,12 +123,60 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bootstrap\.gitignore" />
+    <Content Include="bootstrap\404.html" />
+    <Content Include="bootstrap\about.html" />
+    <Content Include="bootstrap\blog-home-1.html" />
+    <Content Include="bootstrap\blog-home-2.html" />
+    <Content Include="bootstrap\blog-post.html" />
+    <Content Include="bootstrap\contact.html" />
+    <Content Include="bootstrap\css\modern-business.css" />
+    <Content Include="bootstrap\css\the-big-picture.css" />
+    <Content Include="bootstrap\faq.html" />
+    <Content Include="bootstrap\full-width.html" />
+    <Content Include="bootstrap\gulpfile.js" />
+    <Content Include="bootstrap\index.html" />
+    <Content Include="bootstrap\js\contact_me.js" />
+    <Content Include="bootstrap\js\jqBootstrapValidation.js" />
+    <Content Include="bootstrap\portfolio-1-col.html" />
+    <Content Include="bootstrap\portfolio-2-col.html" />
+    <Content Include="bootstrap\portfolio-3-col.html" />
+    <Content Include="bootstrap\portfolio-4-col.html" />
+    <Content Include="bootstrap\portfolio-item.html" />
+    <Content Include="bootstrap\pricing.html" />
+    <Content Include="bootstrap\services.html" />
+    <Content Include="bootstrap\sidebar.html" />
+    <Content Include="bootstrap\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="bootstrap\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="bootstrap\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="bootstrap\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="bootstrap\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="bootstrap\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="bootstrap\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="bootstrap\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="bootstrap\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="bootstrap\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="bootstrap\vendor\jquery\jquery.js" />
+    <Content Include="bootstrap\vendor\jquery\jquery.min.js" />
+    <Content Include="bootstrap\vendor\jquery\jquery.slim.js" />
+    <Content Include="bootstrap\vendor\jquery\jquery.slim.min.js" />
+    <Content Include="css\stiloshome.css" />
+    <Content Include="deteccionactividad\home.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="images\Logo off Simple.svg" />
+    <Content Include="images\logo off.svg" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="deteccionactividad\home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="deteccionactividad\home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -119,7 +184,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="deteccionactividad\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
