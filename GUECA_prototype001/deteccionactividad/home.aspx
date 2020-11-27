@@ -94,7 +94,7 @@
                                         <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg'></a>
                                 </div>
                                 <div class='post-content'>
-                                    <div class='category'>Tu puedes hacerlo tambien</div>
+                                    <div class='category'>Descubre Aquí</div>
                                     <h1 class='title'>FIS Consumer Banking PACE Index</h1>
                                     <p class='description'>The FIS Consumer Banking PACE Index™ indicated that two-thirds of banked consumers in the United States beieve their primary banking providers are not meeting expectations across a range of factors essential to building relevance and trust.</p>
                                     <div class='post-meta'>
